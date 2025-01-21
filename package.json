@@ -6,9 +6,12 @@
   "description": "this is a repository to post the things that i have learned in this workshop",
   "version": "5.4.3",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test" : "jest"
   },
   "repository": {
     "type": "git",
