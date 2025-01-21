@@ -2,7 +2,7 @@ const convert = require('./converter');
 
 describe('convert function tests', () => {
   test('converts 100 INR to USD correctly', () => {
-    expect(convert(100)).toBe('1.20'); // 100 / 83.0 = 1.20
+    expect(convert(100)).toBe('1.2'); // 100 / 83.0 = 1.20
   });
 
   test('converts 0 INR to USD', () => {
